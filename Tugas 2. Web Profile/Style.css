@@ -1,0 +1,141 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: 15cm;
+    margin-top: 12px;
+    padding-top: 2%;
+    color: white;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.bgisi{
+    background-size: 600px 400px;
+    background-image: url(Asset/FotoCandit.png);
+    background-blend-mode: darken 23;
+    text-align: center;
+    font-size: 24;
+    font-variant: inherit;
+}
+
+.profil-main{
+    border-radius: 10% 10% 10% 10%;
+}
+body {
+    font: Times New Roman;
+    font-size: 14;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: fit-content;
+    float: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-decoration-color: white;
+
+}
+
+ul li a:link {
+    color: blue;
+}
+
+ul li a:visited {
+    color: blue;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+}
+p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+txttbl{
+    color: orange;
+}
+
+pendidikan{
+text-align: center;
+background-color: #fafafa;
+height: 600px;
+padding-top: 50px;
+}
+
+.title{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.borderfoto{
+    border: black;
+    border-radius: 4px;
+
+}
+
+.fotopendidikan {
+    width: fit-content;
+    float: center;
+    display: flex;
+}
+
+th{
+    font-size: 28px;
+}
+td{
+    font-size: 24px;
+    text-align: center;
+}
+
+td.matkul{
+    text-align: left;
+}
+
+table, th, td{
+    border: solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+th, td{
+    background-color: orange;
+}
+
+.aktivitas img{
+    width: 255px;
+    float: none;
+    
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.warnanama{
+    color: orange;
+}
