@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Konversi Nilai Angka ke Nilai Huruf</title>
+	<script>
+		// Javascript untuk membuat fungsi perhitungan
+		function konversiNilai() {
+			var nilaiAngka = parseFloat(document.getElementById("inputNilai").value);
+			var nilaiHuruf = "";
+			if (nilaiAngka >= 85) {
+				nilaiHuruf = "A";
+			} else if (nilaiAngka >= 70) {
+				nilaiHuruf = "B";
+			} else if (nilaiAngka >= 60) {
+				nilaiHuruf = "C";
+			} else if (nilaiAngka >= 50) {
+				nilaiHuruf = "D";
+			} else {
+				nilaiHuruf = "E";
+			}
+			// Fungsi untuk membuat hasil
+			document.getElementById("hasilKonversi").innerHTML = nilaiHuruf;
+		}
+	</script>
+</head>
+<body>
+	<h1>Konversi Nilai Angka ke Nilai Huruf</h1>
+	<p>Masukkan nilai angka:</p>
+	<input type="number" id="inputNilai">
+	<button onclick="konversiNilai()">Konversi</button>
+	<p>Nilai huruf:</p>
+	<p id="hasilKonversi"></p>
+</body>
+</html>
