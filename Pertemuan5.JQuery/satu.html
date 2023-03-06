@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar jquery</title>
+    <script type="text/javascript" src="jquery-3.6.3.js"></script>
+        
+    <script>$(document).ready(function () {
+            $(".sembunyi").click(function () { $("#foto").hide("slow") });
+            $(".tampil").click(function () { $("#foto").show("slow") });
+        });
+    </script>
+</head>
+
+<body>
+    <button class="sembunyi">sembunyikan</button>
+    <button class="tampil">tampilkan</button>
+    <p><img id="foto" src="Pantai Ungapan.jpg" width="155"></p>
+</body>
+
+</html>
