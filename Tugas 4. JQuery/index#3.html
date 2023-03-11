@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade Color</title>
+    <!-- Pemanggilan JQuery -->
+    <script type="text/javascript" src="jquery-3.6.3.js"></script>
+
+    <!-- Pembuatan fungsi dengan variabel fadein dan fadeout untuk mengecilkan dan mengembalikan opacity -->
+    <script>$(document).ready(function () {
+            $(".fadein").click(function () { $("#foto").css("opacity", 0.3) });
+            $(".fadeout").click(function () { $("#foto").css("opacity", 1.0) });
+        });
+    </script>
+</head>
+
+<!-- Menampilkan foto dengan button fungsi yang telah dibuat -->
+
+<body>
+    <p><img id="foto" src="Pantai Ungapan.jpg" width="155"></p>
+    <button class="fadeout">tebal</button>
+    <button class="fadein">tipis</button>
+</body>
+
+</html>
