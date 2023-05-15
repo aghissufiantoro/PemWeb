@@ -1,0 +1,13 @@
+.kodeform {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.tglform {
+    display: flex;
+    justify-content: left;
+}
+
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
